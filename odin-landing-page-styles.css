@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
   min-height:100vh;
+  flex-wrap:wrap;
 }
 
 /* HEADER START */
@@ -47,7 +48,7 @@ li {
     background:#1F2937;
     flex-wrap:wrap;
     justify-content:center;
-    height:500px;
+    min-height:500px;
     align-items:flex-start;
 }
 
@@ -80,6 +81,11 @@ li {
     height:200px;
     width:500px;
     margin:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#e5e7eb;
+    font-size:18px;
 }
 
 .left{
@@ -87,4 +93,146 @@ li {
     width:500px;
     margin:100px;
 }
+
+/* CARD END */
+
+/* MID START */
+
+.mid{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  height:500px;
+  flex-wrap:wrap;
+}
+
+.boxes{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.mid-heading{
+  font-size:32px;
+  color:#1f2937;
+  font-weight:800;
+  margin:32px;
+}
+
+.box{
+  height:150px;
+  width:150px;
+  border-radius:16px;
+  border:5px solid #3882f6;
+  margin:8px 0px;
+}
+
+.box1,.box2,.box3,.box4{
+  color:grey;
+  font-size:18px;
+  text-align:center;
+  margin:32px;
+
+}
+
+.boxdesc{
+  width:150px;
+}
+
+/* MID END */
+
+/* BOTTOM MID START */
+
+.bottom-mid{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:#e5e7eb;
+  height:500px;
+}
+
+.quote{
+  font-size:36px;
+  font-style:italic;
+  font-weight:300;
+  color:#1f2937;
+  width:850px;
+  margin:16px 0px;
+}
+
+.thor{
+  font-size:24px;
+  font-weight:700;
+  width:850px;
+  justify-content:flex-end;
+  display:flex;
+}
+
+/* BOTTOM MID END */
+
+/* CALL TO ACTION START */
+
+.call-to-action{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:400px;
+
+}
+
+
+.modal{
+  background:#3882f6;
+  padding:64px 64px;
+  display:flex;
+  width:950px;
+  justify-content:space-between;
+  border-radius:16px;
+}
+
+
+
+.call-heading{
+  font-size:24px;
+  font-weight:700;
+  color:#F9FAF8;
+}
+
+.calldesc{
+  font-size:18px;
+  color:#e5e7eb;
+}
+
+.call-sign-up{
+  background:#3882f6;
+  border:2px solid #F9FAF8;
+  padding:8px 24px;
+  border-radius:8px;
+  font-size:18px;
+  font-weight:700;
+  color:#F9FAF8;
+}
+
+/* BOTTOM MID END */
+
+/* FOOTER START */
+
+.footer{
+  background:#1f2937;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:32px;
+  font-size:18px;
+  color:#F9FAF8;
+}
+
+
+
+
+
+
+
+
 
